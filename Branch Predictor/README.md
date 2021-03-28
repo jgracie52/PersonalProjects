@@ -1,4 +1,4 @@
-#Branch Predictor
+Branch Predictor
 
 This is my Branch Predictor project from my Computer Architecture class in Spring 2019.
 The goal was to design and implement a gshare branch predictor simulator for architectural components.
