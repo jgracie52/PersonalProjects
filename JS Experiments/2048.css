@@ -1,0 +1,46 @@
+html, body
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container
+{
+  height: 600px;
+  width: 600px;
+  background-color: #bbb;
+}
+
+.grid-row
+{
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  height: 24%;
+  margin: 3px;
+}
+
+.grid-col
+{
+  margin: 5px;
+  width: 24%;
+  height: 99%;
+  background-color: #ccc;
+}
+
+.tile-cell
+{
+  background-color: #f1f;
+  width: 138.5px;
+  height: 142.55px;
+  position:absolute;
+}
+
+.tile-container
+{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+}
