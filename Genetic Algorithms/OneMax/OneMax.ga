@@ -1,0 +1,33 @@
+Problem Type                 :OneMax
+Population Size              :200
+Genetic String Size          :75
+Generations per Run          :100
+Number of Runs               :50
+Mutation Style               :1
+CrossOver Style              :2
+Selection Style              :1
+Mutation Rate                :0.01
+CrossOver Rate               :0.7
+Tournament Rate              :2
+
+
+NOTES
+-----------------------
+Problem Type: defines the name of the Fitness Function problem
+Population Size: number of members in the population
+Genetic String Size: the number of binary values in the chromosome
+Generations per Run: the number of generations the algorithm does per run
+Number of runs: the number of runs (experiments) the algorithm performs
+Mutation Style: the type of mutation that the algorithm utilizes
+  -1: Uniform mutation
+CrossOver Style: the type of crossover the algorithm utilizes
+  -1: One-point crossover
+  -2: Two-point crossover
+  -3: Uniform crossover
+Selection Style: the type of selection the algorithm utilizes
+  -1: Tournament selection
+  -2: Proportional selection
+  -3: Ranked selection
+Mutation Rate: the rate that a chromosome will mutate
+CrossOver Rate: the rate that two population members will mate and crossover
+Tournament Rate: the number of population members that will be used in a tournament during tournament selection
