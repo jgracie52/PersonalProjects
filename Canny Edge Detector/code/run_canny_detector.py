@@ -4,12 +4,12 @@ from CannyDetector import CannyDetector
 if __name__ == "__main__":
     # Params
     sigma = 1 # Sigma between 0.59 and 1 seems to work best
-    im_name = '160068'
-    lower_th_ratio = 0.15 # 0.15 works relatively well here
-    upper_th_ratio = 0.2 # 0.2 works relatively well here
+    im_name = '42049'
+    lower_th_ratio = 0.3 # 0.3 works relatively well here
+    upper_th_ratio = 0.4 # 0.4 works relatively well here
 
     # Read image
-    I = cv2.imread(im_name + ".jpg", cv2.IMREAD_GRAYSCALE)
+    I = cv2.imread("Canny Edge Detector/" + im_name + ".jpg", cv2.IMREAD_GRAYSCALE)
 
     # Initialize
     detector = CannyDetector()
